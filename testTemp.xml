@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite" parallel="tests">
+  <test thread-count="1" name="Test4723" parallel="tests">
+    <parameter name="deviceIDName" value="OF4TNFA6T8UCVWAY"/>
+    <parameter name="platformVersionName" value="10]"/>
+    <parameter name="portName" value="4723"/>
+    <classes>
+      <class name="com.swg.lab.testScripts.checkout.VerifyAddMultipleProductToCartFunctionality"/>
+      <class name="com.swg.lab.testScripts.checkout.VerifyCartCountFunctionality"/>
+      <class name="com.swg.lab.testScripts.checkout.VerifyCartCountIsNonOrDecreased"/>
+      <class name="com.swg.lab.testScripts.checkout.VerifyCheckoutFunctionality"/>
+      <class name="com.swg.lab.testScripts.checkout.VerifyCheckoutInfoFunctionality"/>
+      <class name="com.swg.lab.testScripts.checkout.VerifyCheckoutTotalAmountFunctionality"/>
+      <class name="com.swg.lab.testScripts.checkout.VerifyEmptyCartCheckoutFunctionality"/>
+      <class name="com.swg.lab.testScripts.checkout.VerifyEmptyCartFunctionality"/>
+      <class name="com.swg.lab.testScripts.login.VerifyLoginFunctionality"/>
+      <class name="com.swg.lab.testScripts.checkout.VerifyYourCartScreen"/>
+    </classes>
+  </test> <!-- Test4723 -->
+</suite> <!-- Suite -->

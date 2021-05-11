@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="18" total="28" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="257430" started-at="2021-05-11T07:31:17Z" finished-at="2021-05-11T07:35:34Z">
+    <groups>
+    </groups>
+    <test name="Test4723" duration-ms="257430" started-at="2021-05-11T07:31:17Z" finished-at="2021-05-11T07:35:34Z">
+      <class name="com.swg.lab.testScripts.login.VerifyLoginFunctionality">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.swg.lab.testScripts.login.VerifyLoginFunctionality@5543e600]" name="setup" is-config="true" duration-ms="7300" started-at="2021-05-11T07:35:19Z" finished-at="2021-05-11T07:35:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OF4TNFA6T8UCVWAY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.swg.lab.testScripts.login.VerifyLoginFunctionality@5543e600]" name="test" duration-ms="7140" started-at="2021-05-11T07:35:26Z" finished-at="2021-05-11T07:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swg.lab.testScripts.login.VerifyLoginFunctionality@5543e600]" name="tearDown" is-config="true" duration-ms="460" started-at="2021-05-11T07:35:34Z" finished-at="2021-05-11T07:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swg.lab.testScripts.login.VerifyLoginFunctionality -->
+      <class name="com.swg.lab.testScripts.checkout.VerifyCartCountFunctionality">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCartCountFunctionality@641911fc]" name="setup" is-config="true" duration-ms="7570" started-at="2021-05-11T07:31:38Z" finished-at="2021-05-11T07:31:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OF4TNFA6T8UCVWAY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCartCountFunctionality@641911fc]" name="test" duration-ms="10020" started-at="2021-05-11T07:31:46Z" finished-at="2021-05-11T07:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCartCountFunctionality@641911fc]" name="tearDown" is-config="true" duration-ms="510" started-at="2021-05-11T07:31:56Z" finished-at="2021-05-11T07:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swg.lab.testScripts.checkout.VerifyCartCountFunctionality -->
+      <class name="com.swg.lab.testScripts.checkout.VerifyEmptyCartCheckoutFunctionality">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyEmptyCartCheckoutFunctionality@4b906ae5]" name="setup" is-config="true" duration-ms="7400" started-at="2021-05-11T07:34:08Z" finished-at="2021-05-11T07:34:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OF4TNFA6T8UCVWAY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyEmptyCartCheckoutFunctionality@4b906ae5]" name="test" duration-ms="20830" started-at="2021-05-11T07:34:16Z" finished-at="2021-05-11T07:34:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyEmptyCartCheckoutFunctionality@4b906ae5]" name="tearDown" is-config="true" duration-ms="1550" started-at="2021-05-11T07:34:36Z" finished-at="2021-05-11T07:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swg.lab.testScripts.checkout.VerifyEmptyCartCheckoutFunctionality -->
+      <class name="com.swg.lab.testScripts.checkout.VerifyEmptyCartFunctionality">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyEmptyCartFunctionality@6f0d9118]" name="setup" is-config="true" duration-ms="7350" started-at="2021-05-11T07:34:38Z" finished-at="2021-05-11T07:34:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OF4TNFA6T8UCVWAY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyEmptyCartFunctionality@6f0d9118]" name="test" duration-ms="12090" started-at="2021-05-11T07:34:45Z" finished-at="2021-05-11T07:34:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyEmptyCartFunctionality@6f0d9118]" name="tearDown" is-config="true" duration-ms="1510" started-at="2021-05-11T07:34:57Z" finished-at="2021-05-11T07:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swg.lab.testScripts.checkout.VerifyEmptyCartFunctionality -->
+      <class name="com.swg.lab.testScripts.checkout.VerifyCartCountIsNonOrDecreased">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCartCountIsNonOrDecreased@6ef54b1b]" name="setup" is-config="true" duration-ms="7274" started-at="2021-05-11T07:31:56Z" finished-at="2021-05-11T07:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OF4TNFA6T8UCVWAY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCartCountIsNonOrDecreased@6ef54b1b]" name="test" duration-ms="13869" started-at="2021-05-11T07:32:04Z" finished-at="2021-05-11T07:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCartCountIsNonOrDecreased@6ef54b1b]" name="tearDown" is-config="true" duration-ms="507" started-at="2021-05-11T07:32:17Z" finished-at="2021-05-11T07:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swg.lab.testScripts.checkout.VerifyCartCountIsNonOrDecreased -->
+      <class name="com.swg.lab.testScripts.checkout.VerifyCheckoutInfoFunctionality">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCheckoutInfoFunctionality@234326e7]" name="setup" is-config="true" duration-ms="7400" started-at="2021-05-11T07:33:06Z" finished-at="2021-05-11T07:33:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OF4TNFA6T8UCVWAY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCheckoutInfoFunctionality@234326e7]" name="test" duration-ms="23250" started-at="2021-05-11T07:33:13Z" finished-at="2021-05-11T07:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCheckoutInfoFunctionality@234326e7]" name="tearDown" is-config="true" duration-ms="1590" started-at="2021-05-11T07:33:37Z" finished-at="2021-05-11T07:33:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swg.lab.testScripts.checkout.VerifyCheckoutInfoFunctionality -->
+      <class name="com.swg.lab.testScripts.checkout.VerifyYourCartScreen">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyYourCartScreen@1053fc7f]" name="setup" is-config="true" duration-ms="7260" started-at="2021-05-11T07:34:59Z" finished-at="2021-05-11T07:35:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OF4TNFA6T8UCVWAY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyYourCartScreen@1053fc7f]" name="test" duration-ms="12510" started-at="2021-05-11T07:35:06Z" finished-at="2021-05-11T07:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyYourCartScreen@1053fc7f]" name="tearDown" is-config="true" duration-ms="480" started-at="2021-05-11T07:35:19Z" finished-at="2021-05-11T07:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swg.lab.testScripts.checkout.VerifyYourCartScreen -->
+      <class name="com.swg.lab.testScripts.checkout.VerifyCheckoutTotalAmountFunctionality">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCheckoutTotalAmountFunctionality@f794582]" name="setup" is-config="true" duration-ms="7310" started-at="2021-05-11T07:33:38Z" finished-at="2021-05-11T07:33:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OF4TNFA6T8UCVWAY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCheckoutTotalAmountFunctionality@f794582]" name="test" duration-ms="22070" started-at="2021-05-11T07:33:46Z" finished-at="2021-05-11T07:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCheckoutTotalAmountFunctionality@f794582]" name="tearDown" is-config="true" duration-ms="510" started-at="2021-05-11T07:34:08Z" finished-at="2021-05-11T07:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swg.lab.testScripts.checkout.VerifyCheckoutTotalAmountFunctionality -->
+      <class name="com.swg.lab.testScripts.checkout.VerifyAddMultipleProductToCartFunctionality">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyAddMultipleProductToCartFunctionality@79482a9d]" name="beforeClass" is-config="true" duration-ms="237" started-at="2021-05-11T07:31:16Z" finished-at="2021-05-11T07:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyAddMultipleProductToCartFunctionality@79482a9d]" name="setup" is-config="true" duration-ms="8910" started-at="2021-05-11T07:31:17Z" finished-at="2021-05-11T07:31:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OF4TNFA6T8UCVWAY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyAddMultipleProductToCartFunctionality@79482a9d]" name="test" duration-ms="12171" started-at="2021-05-11T07:31:26Z" finished-at="2021-05-11T07:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyAddMultipleProductToCartFunctionality@79482a9d]" name="tearDown" is-config="true" duration-ms="529" started-at="2021-05-11T07:31:38Z" finished-at="2021-05-11T07:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyAddMultipleProductToCartFunctionality@79482a9d]" name="afterClass" is-config="true" duration-ms="245" started-at="2021-05-11T07:35:34Z" finished-at="2021-05-11T07:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.swg.lab.testScripts.checkout.VerifyAddMultipleProductToCartFunctionality -->
+      <class name="com.swg.lab.testScripts.checkout.VerifyCheckoutFunctionality">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCheckoutFunctionality@1b67fbd4]" name="setup" is-config="true" duration-ms="7266" started-at="2021-05-11T07:32:18Z" finished-at="2021-05-11T07:32:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OF4TNFA6T8UCVWAY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCheckoutFunctionality@1b67fbd4]" name="test" duration-ms="40313" started-at="2021-05-11T07:32:25Z" finished-at="2021-05-11T07:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swg.lab.testScripts.checkout.VerifyCheckoutFunctionality@1b67fbd4]" name="tearDown" is-config="true" duration-ms="460" started-at="2021-05-11T07:33:06Z" finished-at="2021-05-11T07:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swg.lab.testScripts.checkout.VerifyCheckoutFunctionality -->
+    </test> <!-- Test4723 -->
+  </suite> <!-- Suite -->
+</testng-results>
